@@ -1,0 +1,25 @@
+.title {
+    font-family: Arial;
+    font-style: normal;
+    font-size: var(--fs-biggest);
+}
+
+.title span {
+    color: var(--color-orange);
+}
+
+.city__name {
+    background: var(--bg-color-orange);
+    box-shadow: 0 1px 5px #0003, 0 2px 2px #00000024, 0 3px 1px -2px #0000001f;
+}
+
+.city__name:hover {
+    opacity: .8;
+    transition: background-color .3s cubic-bezier(.25,.8,.5,1),opacity .4s cubic-bezier(.25,.8,.5,1);
+}
+
+@media screen and (max-width: 760px) {
+    .title {
+        font-size: var(--fs-big);
+    }
+}

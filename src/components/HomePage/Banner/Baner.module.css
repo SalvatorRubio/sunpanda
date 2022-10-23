@@ -1,0 +1,54 @@
+.wrapper {
+    background: var(--bg-color-orange);
+}
+
+.banner {
+    max-height: 434px;
+}
+
+.img {
+    width: 33.3333%;
+    max-height: 434px;
+}
+
+.item {
+    width: 33.333%;
+    padding-top: 10px;
+}
+
+.item p {
+    font-size: var(--fs-biggest);
+    padding-bottom: 1.9vw;
+    padding-top: 10px;
+}
+
+
+.logo {
+    background-size: contain;
+    height: 14.4vmax;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+
+    .item p {
+        font-size: var(--fs-big);
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .item p {
+        font-size: var(--fs-medium);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 274px;
+    }
+
+    .item p {
+        font-size: var(--fs-small);
+        line-height: 20px;
+    }
+}

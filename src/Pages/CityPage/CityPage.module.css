@@ -1,0 +1,43 @@
+.banner {
+    position: relative;
+    height: 100%;
+    max-height: 400px;
+}
+
+.banner img {
+    min-height: 80px;
+    width: 100vw;
+    min-width: 100vw;
+}
+
+.banner__text {
+    font-size: 2.3vmax;
+}
+
+.button {
+    background-color: var(--bg-color-orange);
+    font-size: 1.3vmax;
+    font-weight: 700;
+    max-width: 250px;
+    width: 100%;
+    transition: .2s ease-out;
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 1px grey;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        max-height: 261px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 200px;
+    }
+}
