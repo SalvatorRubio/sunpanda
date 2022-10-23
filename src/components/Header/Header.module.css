@@ -1,0 +1,5 @@
+.header {
+    box-shadow: 0 5px 10px 1px grey;
+    z-index: 1;
+    cursor: pointer;
+}
