@@ -1,0 +1,14 @@
+:root {
+    --bg-color-orange: #ff5a00;
+
+    --color-orange: #ff5a00;
+
+    --fs-biggest: calc(21px + .00549vmax);
+    --fs-big: calc(16px + .00549vmax);
+    --fs-medium: calc(13px + .00549vmax);
+    --fs-small: calc(11px + .00549vmax);
+}
+
+body {
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
