@@ -1,0 +1,381 @@
+{
+  "Ahtubinsk": [
+    {
+      "name": "%D0%A2%D0%9E%D0%9A%D0%98%D0%9E",
+      "costDelivery": 100,
+      "range": [
+        {
+          "name": "Суши и роллы",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3501/conversions/sushi_roll-min-icon.jpg",
+          "products": [
+            {
+              "name": "Суши креветка 50г",
+              "composition": [
+                "рис",
+                "нори",
+                "креветка королевская"
+              ],
+              "price": 96,
+              "img": "https://shop.sunpanda.ru/storage/app/public/85/sushi_krevetka.jpg"
+            },
+            {
+              "name": "Сяке Икура 240г",
+              "composition": [
+                "рис",
+                "нори",
+                "лосось",
+                "сыр",
+                "икра лосося"
+              ],
+              "price": 402,
+              "img": "https://shop.sunpanda.ru/storage/app/public/135/syake_ikura.jpg"
+            },
+            {
+              "name": "Филадельфия с чуккой 230г",
+              "composition": [],
+              "price": 438,
+              "img": "https://shop.sunpanda.ru/storage/app/public/137/s_chukoi.jpg"
+            },
+            {
+              "name": "Нью Йорк 230г",
+              "composition": [
+                "рис",
+                "нори",
+                "лосось",
+                "угорь",
+                "спайси",
+                "соус",
+                "кунжут"
+              ],
+              "price": 318,
+              "img": "https://shop.sunpanda.ru/storage/app/public/133/new_york.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Пицца",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3511/conversions/pizza-min-icon.jpg",
+          "products": [
+            {
+              "name": "Пицца Праздничная 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "курица",
+                "шампиньоны",
+                "лук зеленый",
+                "маслины",
+                "помидор"
+              ],
+              "price": 402,
+              "img": "https://shop.sunpanda.ru/storage/app/public/483/PRAZDNICHNAYA-min.jpg"
+            },
+            {
+              "name": "Пицца Премиум 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "чесночный соус",
+                "ветчина",
+                "баварские колбаски",
+                "черри",
+                "чеддер"
+              ],
+              "price": 474,
+              "img": "https://shop.sunpanda.ru/storage/app/public/485/PREMIYM-min.jpg"
+            },
+            {
+              "name": "Пицца Деревенская 40см. 1000г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "фарш говяжий",
+                "шампиньон",
+                "паприка",
+                "лук зеленый",
+                "помидор"
+              ],
+              "price": 720,
+              "img": "https://shop.sunpanda.ru/storage/app/public/523/DEREVENSKAYA-min.jpg"
+            },
+            {
+              "name": "Пицца Морская 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "креветки коктейльные",
+                "лосось",
+                "паприка",
+                "черри"
+              ],
+              "price": 570,
+              "img": "https://shop.sunpanda.ru/storage/app/public/481/MORSKAYA-min.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Закуски",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3523/conversions/zakyski-min-icon.jpg",
+          "products": [
+            {
+              "name": "Наггетсы 100г",
+              "composition": [],
+              "price": 156,
+              "img": "https://shop.sunpanda.ru/storage/app/public/411/NAGETCI-min.jpg"
+            },
+            {
+              "name": "Куриные крылья 200г",
+              "composition": [],
+              "price": 222,
+              "img": "https://shop.sunpanda.ru/storage/app/public/409/KYRINIE_KRILYA-min.jpg"
+            },
+            {
+              "name": "Картофель фри 100г",
+              "composition": [],
+              "price": 84,
+              "img": "https://shop.sunpanda.ru/storage/app/public/407/KARTOFEL_FREE-min.jpg"
+            },
+            {
+              "name": "Панини с беконом 300г",
+              "composition": [
+                "пшеничная тортилья",
+                "помидор",
+                "пекинская капуста",
+                "лук репчатый",
+                "бекон",
+                "сыр плавленный",
+                "сырный соус"
+              ],
+              "price": 84,
+              "img": "https://shop.sunpanda.ru/storage/app/public/395/PANINI-min.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Салаты",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3536/conversions/salat-min-icon.jpg",
+          "products": [
+            {
+              "name": "Салат Цезарь с креветкой 200г",
+              "composition": [
+                "салат айсберг",
+                "лист салата",
+                "креветки",
+                "сухари",
+                "черри",
+                "соус"
+              ],
+              "price": 330,
+              "img": "https://shop.sunpanda.ru/storage/app/public/363/CEZAR_S_KREVETKOI-min.jpg"
+            },
+            {
+              "name": "Салат калифорния 200г",
+              "composition": [
+                "снежный краб",
+                "масаго",
+                "авокадо",
+                "огурец",
+                "майонез",
+                "черри"
+              ],
+              "price": 228,
+              "img": "https://shop.sunpanda.ru/storage/app/public/367/SALAT_KALIFORNIYA-min.jpg"
+            }
+          ]
+        }
+      ]
+    },{
+      "name": "2222",
+      "costDelivery": 100,
+      "range": [
+        {
+          "name": "Суши и роллы",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3501/conversions/sushi_roll-min-icon.jpg",
+          "products": [
+            {
+              "name": "Суши креветка 50г",
+              "composition": [
+                "рис",
+                "нори",
+                "креветка королевская"
+              ],
+              "price": 96,
+              "img": "https://shop.sunpanda.ru/storage/app/public/85/sushi_krevetka.jpg"
+            },
+            {
+              "name": "Сяке Икура 240г",
+              "composition": [
+                "рис",
+                "нори",
+                "лосось",
+                "сыр",
+                "икра лосося"
+              ],
+              "price": 402,
+              "img": "https://shop.sunpanda.ru/storage/app/public/135/syake_ikura.jpg"
+            },
+            {
+              "name": "Филадельфия с чуккой 230г",
+              "composition": [],
+              "price": 438,
+              "img": "https://shop.sunpanda.ru/storage/app/public/137/s_chukoi.jpg"
+            },
+            {
+              "name": "Нью Йорк 230г",
+              "composition": [
+                "рис",
+                "нори",
+                "лосось",
+                "угорь",
+                "спайси",
+                "соус",
+                "кунжут"
+              ],
+              "price": 318,
+              "img": "https://shop.sunpanda.ru/storage/app/public/133/new_york.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Пицца",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3511/conversions/pizza-min-icon.jpg",
+          "products": [
+            {
+              "name": "Пицца Праздничная 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "курица",
+                "шампиньоны",
+                "лук зеленый",
+                "маслины",
+                "помидор"
+              ],
+              "price": 402,
+              "img": "https://shop.sunpanda.ru/storage/app/public/483/PRAZDNICHNAYA-min.jpg"
+            },
+            {
+              "name": "Пицца Премиум 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "чесночный соус",
+                "ветчина",
+                "баварские колбаски",
+                "черри",
+                "чеддер"
+              ],
+              "price": 474,
+              "img": "https://shop.sunpanda.ru/storage/app/public/485/PREMIYM-min.jpg"
+            },
+            {
+              "name": "Пицца Деревенская 40см. 1000г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "фарш говяжий",
+                "шампиньон",
+                "паприка",
+                "лук зеленый",
+                "помидор"
+              ],
+              "price": 720,
+              "img": "https://shop.sunpanda.ru/storage/app/public/523/DEREVENSKAYA-min.jpg"
+            },
+            {
+              "name": "Пицца Морская 32см. 600г",
+              "composition": [
+                "тесто",
+                "томатная основа",
+                "моцарелла",
+                "креветки коктейльные",
+                "лосось",
+                "паприка",
+                "черри"
+              ],
+              "price": 570,
+              "img": "https://shop.sunpanda.ru/storage/app/public/481/MORSKAYA-min.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Закуски",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3523/conversions/zakyski-min-icon.jpg",
+          "products": [
+            {
+              "name": "Наггетсы 100г",
+              "composition": [],
+              "price": 156,
+              "img": "https://shop.sunpanda.ru/storage/app/public/411/NAGETCI-min.jpg"
+            },
+            {
+              "name": "Куриные крылья 200г",
+              "composition": [],
+              "price": 222,
+              "img": "https://shop.sunpanda.ru/storage/app/public/409/KYRINIE_KRILYA-min.jpg"
+            },
+            {
+              "name": "Картофель фри 100г",
+              "composition": [],
+              "price": 84,
+              "img": "https://shop.sunpanda.ru/storage/app/public/407/KARTOFEL_FREE-min.jpg"
+            },
+            {
+              "name": "Панини с беконом 300г",
+              "composition": [
+                "пшеничная тортилья",
+                "помидор",
+                "пекинская капуста",
+                "лук репчатый",
+                "бекон",
+                "сыр плавленный",
+                "сырный соус"
+              ],
+              "price": 84,
+              "img": "https://shop.sunpanda.ru/storage/app/public/395/PANINI-min.jpg"
+            }
+          ]
+        },
+        {
+          "name": "Салаты",
+          "img": "https://shop.sunpanda.ru/storage/app/public/3536/conversions/salat-min-icon.jpg",
+          "products": [
+            {
+              "name": "Салат Цезарь с креветкой 200г",
+              "composition": [
+                "салат айсберг",
+                "лист салата",
+                "креветки",
+                "сухари",
+                "черри",
+                "соус"
+              ],
+              "price": 330,
+              "img": "https://shop.sunpanda.ru/storage/app/public/363/CEZAR_S_KREVETKOI-min.jpg"
+            },
+            {
+              "name": "Салат калифорния 200г",
+              "composition": [
+                "снежный краб",
+                "масаго",
+                "авокадо",
+                "огурец",
+                "майонез",
+                "черри"
+              ],
+              "price": 228,
+              "img": "https://shop.sunpanda.ru/storage/app/public/367/SALAT_KALIFORNIYA-min.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

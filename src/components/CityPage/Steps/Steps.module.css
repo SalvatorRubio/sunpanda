@@ -1,0 +1,12 @@
+.wrapper__steps {
+    background: url("./img/wall.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.steps__img {
+    width: 7vw;
+    filter: drop-shadow(3px 5px 5px rgba(0,0,0,.5));
+    height: 9vw;
+
+}

@@ -1,0 +1,21 @@
+.restaurants__item {
+    width: 250px;
+    transition: all .5s ease 0s;
+    cursor: pointer;
+}
+
+.restaurants__item p {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.restaurants__item:hover {
+    box-shadow: 0 5px 10px 0 var(--bg-color-orange);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 520px) {
+    .restaurants__item {
+        width: 410px;
+    }
+}

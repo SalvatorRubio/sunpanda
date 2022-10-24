@@ -11,4 +11,6 @@
 
 body {
     font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #eeeeee;
 }
