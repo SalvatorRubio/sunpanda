@@ -1,11 +1,24 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import cn from "classnames";
 import styles from './RestaurantProductsList.module.css'
 
-const RestaurantProductsList = ({range}) => {
+const RestaurantProductsList = ({range, category}) => {
+    const [menuList, setMenuList] = useState([])
+
+    useEffect(() => {
+        if(range.find(item => item.name === category)) {
+            range.map(({name, products}) => {
+                if(name === category) {
+                    return setMenuList([{name, products}])
+                }
+            })
+        } else {
+            setMenuList(range)
+        }
+    },[range, category])
     return (
         <div>
-            {range.map(({name, products}) => {
+            {menuList.map(({name, products}) => {
                 return (
                     <div key={name} className="my-5">
                         <h1 className="mb-5">{name}</h1>
@@ -21,7 +34,6 @@ const RestaurantProductsList = ({range}) => {
                         </div>
                     </div>
                 )
-
             })}
         </div>
     );
