@@ -1,0 +1,15 @@
+.item {
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 5px 10px 1px grey;
+}
+
+.item h1 {
+    font-size: calc(13.17647px + .00882vw);
+}
+
+@media screen and (max-width: 460px) {
+    .item {
+        max-width: 434px;
+    }
+}

@@ -6,6 +6,7 @@ import styles from './Header.module.css'
 
 const Header = () => {
     const navigate = useNavigate()
+
     return (
         <>
             <header className={cn(styles.header, 'px-2', 'position-fixed', 'bg-white', 'w-100')}>

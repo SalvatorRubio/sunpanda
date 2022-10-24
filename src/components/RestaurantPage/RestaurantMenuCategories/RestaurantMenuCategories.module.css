@@ -1,0 +1,27 @@
+.menu__item {
+    height: auto;
+    max-width: 104px;
+    width: 100%;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.active {
+    box-shadow: 0 5px 10px 0 var(--bg-color-orange);
+}
+
+.menu__item img {
+    max-width: 60px;
+}
+
+.menu__item:hover {
+    box-shadow: 0 5px 10px 0 var(--bg-color-orange);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 460px) {
+    .menu__item {
+        max-width: 434px;
+        height: 60px;
+    }
+}
