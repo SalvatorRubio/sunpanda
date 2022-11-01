@@ -14,8 +14,3 @@
     transform: translateY(-5px);
 }
 
-@media screen and (max-width: 520px) {
-    .restaurants__item {
-        width: 410px;
-    }
-}

@@ -1,0 +1,20 @@
+.container {
+    box-shadow: -5px 10px 10px 2px #0003;
+}
+
+.offcanvas__header p {
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .03333em;
+}
+
+
+
+.offcanvas__headerBtn {
+    z-index: 1;
+    left: -25px;
+}
+
+.offcanvas__headerBtn img {
+    width: 34px;
+}

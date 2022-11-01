@@ -1,10 +1,13 @@
 import React from 'react';
+import {useDispatch} from "react-redux";
+import {setCityName} from "@store/slices/cartSlice"
 import cn from "classnames";
 
 import styles from './CitiesList.module.css'
 import {NavLink} from "react-router-dom";
 
 const CitiesList = () => {
+    const dispatch = useDispatch()
     const cities = [
         {
             name: 'Ахтубинск',
@@ -33,8 +36,10 @@ const CitiesList = () => {
             <div className="d-flex flex-wrap justify-content-center">
                 {cities.map(({name, href}) => {
                     return (
-                        <NavLink className={cn('m-5 text-decoration-none text-white pointer-event p-2 rounded-1', styles.city__name)}
-                                 key={name} to={`/City-${href}/`}>{name}</NavLink>
+                        <NavLink
+                            className={cn('m-5 text-decoration-none text-white pointer-event p-2 rounded-1', styles.city__name)}
+                            key={name} onClick={() => dispatch(setCityName(name))}
+                            to={`/City-${href}/`}>{name}</NavLink>
                     )
                 })}
             </div>

@@ -15,10 +15,13 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "dataCity": "json-server -p 3004 -w dataCity.json",
+    "dataRestaurant": "json-server -p 3005 -w dataRestaurant.json",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test"
   },
