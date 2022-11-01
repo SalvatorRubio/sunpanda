@@ -1,13 +1,14 @@
 import {createSlice} from "@reduxjs/toolkit";
 
+const initialState = {
+    status: true,
+    price: '',
+    shopName: ''
+}
 
 const restaurantSlice = createSlice({
     name: 'restaurant',
-    initialState: {
-        status: true,
-        price: '',
-        shopName: ''
-    },
+    initialState,
     reducers: {
         changeStatusShop(state, action) {
             //    ЛЕГЧЕ ПОЛУЧАТЬ ДАННЫЕ С БД ОТКРЫТ МАГАЗИН ИЛИ ЗАКРЫТ
@@ -17,10 +18,13 @@ const restaurantSlice = createSlice({
         },
         setName(state, action) {
             state.shopName = action.payload
+        },
+        clearRestaurantState() {
+            return initialState;
         }
     }
 })
 
-export const {changeStatusShop, setPrice, setName} = restaurantSlice.actions
+export const {changeStatusShop, setPrice, setName, clearRestaurantState} = restaurantSlice.actions
 
 export default restaurantSlice.reducer

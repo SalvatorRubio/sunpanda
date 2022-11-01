@@ -1,15 +1,17 @@
 import React, {useEffect, useState} from 'react';
 import {useNavigate, useParams} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
+import {setCostDelivery} from "@store/slices/cartSlice";
 
 import arrow from './img/left-arrow.svg'
 import {getApiResource} from "@utils/network";
 import {API_RESTAURANTS_DATA} from "@constants/api";
-import {useSelector} from "react-redux";
 import InfoRestaurant from "@components/RestaurantPage/InfoRestaurant";
 import RestaurantMenuCategories from "@components/RestaurantPage/RestaurantMenuCategories";
 import RestaurantProductsList from "@components/RestaurantPage/RestaurantProductsList";
 
 const RestaurantPage = () => {
+    const dispatch = useDispatch()
     const {shopName} = useSelector(state => state.restaurantSlice)
     const [costDelivery, setCostDeliver] = useState(0)
     const [range, setRange] = useState([])
@@ -31,6 +33,10 @@ const RestaurantPage = () => {
 
         }
     }
+
+    useEffect(() => {
+        dispatch(setCostDelivery(costDelivery))
+    }, [costDelivery])
 
     useEffect(() => {
         getResource(API_RESTAURANTS_DATA + name)

@@ -4,16 +4,13 @@ import {useParams} from "react-router-dom";
 import Steps from "@components/CityPage/Steps/Steps";
 import RestaurantDiscounts from "@components/CityPage/RestaurantDiscounts";
 import RestaurantsList from "@components/CityPage/RestarauntsList";
-
 import {getApiResource} from "@utils/network";
 import {API_CITY_RESTAURANTS} from "@constants/api";
-
 
 import banner from './img/banner.jpg'
 import bannerPhone from './img/banner-phone.jpg'
 import cn from "classnames";
 import styles from './CityPage.module.css'
-
 
 const CityPage = () => {
     const [img, setImg] = useState()
@@ -58,7 +55,9 @@ const CityPage = () => {
                     className={cn("w-50 h-100 py-5 m-auto position-relative d-flex flex-column justify-content-center align-items-lg-start align-items-center")}>
                     <h1 className={cn("fw-bolder lh-1 pb-lg-5 text-md-start text-center w-lg-75", styles.banner__text)}>Доставка
                         готовых блюд из ресторанов</h1>
-                    <button onClick={buttonHandler} className={cn('border-0 rounded-1 py-2', styles.button)}>Заказать доставку</button>
+                    <button onClick={buttonHandler} className={cn('border-0 rounded-1 py-2', styles.button)}>Заказать
+                        доставку
+                    </button>
                 </div>
             </div>
             <RestaurantDiscounts discounts={discounts}/>
