@@ -3,12 +3,18 @@ import cn from "classnames";
 import styles from './RestaurantProductsList.module.css'
 import {useDispatch} from "react-redux";
 import {addProduct} from "@store/slices/cartSlice";
+import ModalAddProduct from "../../UI/ModalAddProduct";
 
 const RestaurantProductsList = ({range, category}) => {
     const [menuList, setMenuList] = useState([])
+    const [show, setShow] = useState(false);
     const dispatch = useDispatch()
 
     const handleClick = (name, price, img) => {
+        setShow(true)
+        setTimeout(() => {
+            setShow(false)
+        },10000)
         const product = {
             name,
             price,
@@ -32,7 +38,7 @@ const RestaurantProductsList = ({range, category}) => {
         }
     },[range, category])
     return (
-        <div>
+        <>
             {menuList.map(({name, products}) => {
                 return (
                     <div key={name} className="my-5">
@@ -51,7 +57,8 @@ const RestaurantProductsList = ({range, category}) => {
                     </div>
                 )
             })}
-        </div>
+            <ModalAddProduct show={show}/>
+        </>
     );
 };
 

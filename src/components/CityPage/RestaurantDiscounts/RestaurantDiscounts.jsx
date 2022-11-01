@@ -29,8 +29,6 @@ const settings = {
 
 
 const RestaurantDiscounts = ({discounts}) => {
-
-
     return (
         <div className="w-75 m-auto my-5">
             <Slider {...settings}>
